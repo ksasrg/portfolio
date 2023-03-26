@@ -1,0 +1,17 @@
+header {
+    background-color: #95d4eb;   
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 50px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    border: 1px solid black;
+}

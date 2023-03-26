@@ -1,0 +1,23 @@
+.greeting {
+    background-color: rgb(166, 249, 199);
+}
+
+.body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 0;
+}
+
+.content {
+    width: 100%;
+    border: 1px solid black;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    border: 1px solid black;
+}
+
