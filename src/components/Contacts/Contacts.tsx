@@ -4,7 +4,7 @@ import style from './Contacts.module.css'
 
 const Contacts = () => {
     return (
-        <div id='contacts' className={style.body}>
+        <section id='contacts' className={style.body}>
             <Container>
                 <div className={style.content}>
                     <div className={style.title}>
@@ -19,7 +19,7 @@ const Contacts = () => {
 
                 </div>
             </Container>
-        </div>
+        </section>
     );
 };
 

@@ -1,17 +1,18 @@
 header {
     background-color: #95d4eb;   
+    padding: 20px 0;
 }
 
 .header {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    height: 50px;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     gap: 20px;
     border: 1px solid black;
 }

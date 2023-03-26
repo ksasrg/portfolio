@@ -16,14 +16,14 @@
 }
 
 .items {
-    width: 300px;
+    max-width: 300px;
     margin: 20px auto;
 
     border: 1px solid black;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 20px;
 }
 
 .item {

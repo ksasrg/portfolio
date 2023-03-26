@@ -15,6 +15,10 @@
     border: 1px solid black;
 }
 
+.title span {
+    text-align: center;
+}
+
 .hire {
 padding: 20px 0 ;
 text-align: center;

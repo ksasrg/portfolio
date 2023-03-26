@@ -4,7 +4,7 @@ import style from './Footer.module.css'
 
 const Footer = () => {
     return (
-        <div id='contacts' className={style.body}>
+        <footer id='footer' className={style.body}>
             <Container>
                 <div className={style.content}>
                     <div className={style.title}>
@@ -19,10 +19,9 @@ const Footer = () => {
                     <div className={style.copyright}>
                         2023 Copyright
                     </div>
-
                 </div>
             </Container>
-        </div>
+        </footer>
     );
 };
 

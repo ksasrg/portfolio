@@ -5,7 +5,7 @@ import style from './Works.module.css'
 
 const Works = () => {
   return (
-    <div id='works' className={style.body}>
+    <section id='works' className={style.body}>
       <Container>
         <div className={style.content}>
           <div className={style.title}>
@@ -18,7 +18,7 @@ const Works = () => {
           </div>
         </div>
       </Container>
-    </div>
+    </section>
   );
 };
 

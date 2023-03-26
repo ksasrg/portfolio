@@ -4,7 +4,7 @@ import style from './Greeting.module.css'
 
 const Greeting = () => {
   return (
-    <div className={style.greeting}>
+    <section className={style.greeting}>
       <Container>
         <div className={style.content}>
           <div className={style.text}>
@@ -14,7 +14,7 @@ const Greeting = () => {
           <div className={style.photo}></div>
         </div>
       </Container>
-    </div>
+    </section>
   );
 };
 

@@ -16,11 +16,15 @@
 }
 
 .form {
-width: 300px;
+max-width: 310px;
 margin: 20px auto;
 
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 5px;
+
 border: 1px solid black;
-text-align: center;
 }
 
 .form input {
@@ -29,4 +33,8 @@ text-align: center;
 
 .form textarea {
     width: 100%;
+}
+
+.form button {
+    min-width: 10px;
 }
