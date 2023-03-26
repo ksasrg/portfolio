@@ -8,10 +8,10 @@ const Header = () => {
             <Container>
                 <div className={style.header}>
                     <nav>
-                        <a href="">Главная</a>
-                        <a href="">Скиллы</a>
-                        <a href="">Работы</a>
-                        <a href="">Контакты</a>
+                        <a href="#">Главная</a>
+                        <a href="#skills">Скиллы</a>
+                        <a href="#works">Работы</a>
+                        <a href="#contacts">Контакты</a>
                     </nav>
                 </div>
             </Container>

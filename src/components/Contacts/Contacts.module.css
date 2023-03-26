@@ -1,5 +1,5 @@
 .body {
-    background-color: rgb(166, 249, 199);
+    background-color: rgb(249, 166, 205);
     padding: 60px 0;
 }
 
@@ -15,14 +15,18 @@
     border: 1px solid black;
 }
 
-.title span {
-    background-color: rgb(192, 187, 187);
+.form {
+width: 300px;
+margin: 20px auto;
+
+border: 1px solid black;
+text-align: center;
 }
 
+.form input {
+    width: 100%;
+}
 
-.skills {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    gap: 10px;
+.form textarea {
+    width: 100%;
 }

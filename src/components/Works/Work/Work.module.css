@@ -1,0 +1,28 @@
+.body{
+    width: 250px;
+    border: 1px solid black;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /* padding: 5px; */
+}
+
+.work{
+    width: 250px;
+    height: 250px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    margin: 10px 0;
+}
+
+.text{
+    text-align: center;
+    border: 1px solid black;
+}

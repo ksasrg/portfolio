@@ -1,19 +1,20 @@
 import React from 'react';
 import Container from '../Container/Container';
+import Skill from './Skill/Skill';
 import style from './Skills.module.css'
 
 const Skills = () => {
   return (
-    <div className={style.greeting}>
+    <div id='skills' className={style.body}>
       <Container>
-        <div className={style.body}>
-          <div className={style.content}>
-            <div className={style.title}>
-              Skills
-            </div>
-            <div className={style.skills}>
-              dfgdf
-            </div>
+        <div className={style.content}>
+          <div className={style.title}>
+            <span>Skills</span>
+          </div>
+          <div className={style.skills}>
+            <Skill />
+            <Skill />
+            <Skill />
           </div>
         </div>
       </Container>

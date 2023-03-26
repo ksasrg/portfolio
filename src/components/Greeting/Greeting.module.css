@@ -1,20 +1,19 @@
 .greeting {
     background-color: rgb(249, 166, 205);
-}
-
-.body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     padding: 60px 0;
 }
+
+
 
 .content {
     display: flex;
     width: 100%;
     justify-content: space-around;
+    flex-wrap: wrap;
     align-items: center;
     border: 1px solid black;
+
+    padding: 0 20px;
 }
 
 .text{
@@ -22,7 +21,7 @@
 }
 
 .photo {
-    min-width: 250px;
+    width: 250px;
     height: 250px;
     background-color: rgb(204, 204, 204);
 }

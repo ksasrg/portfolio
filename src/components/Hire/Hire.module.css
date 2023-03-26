@@ -1,5 +1,5 @@
 .body {
-    background-color: rgb(166, 249, 199);
+    background-color: rgb(237, 231, 201);
     padding: 60px 0;
 }
 
@@ -15,14 +15,7 @@
     border: 1px solid black;
 }
 
-.title span {
-    background-color: rgb(192, 187, 187);
-}
-
-
-.skills {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    gap: 10px;
+.hire {
+padding: 20px 0 ;
+text-align: center;
 }
