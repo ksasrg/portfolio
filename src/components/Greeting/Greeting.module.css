@@ -1,6 +1,7 @@
 .greeting {
     background-color: rgb(249, 166, 205);
     padding: 60px 0;
+
 }
 
 
@@ -8,6 +9,7 @@
 .content {
     display: flex;
     width: 100%;
+    min-height: 78vh;
     justify-content: space-around;
     flex-wrap: wrap;
     align-items: center;
